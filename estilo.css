@@ -1,0 +1,622 @@
+body{
+   
+
+/* Desktop - 1 */
+
+position: relative;
+width: 100%;
+height: auto;
+
+background: #4A0638;
+
+
+
+}
+/* INICIO NAV*/
+.contenedor-header {
+    
+    text-align: center;
+    height: 80px;
+}
+.botonesNav{
+   
+   /* Group 6 */
+
+position: absolute;
+display: flex;
+margin-left: 300px;
+
+
+
+
+
+
+}
+.botonSobremi, .botonCms, .proyectos, .conocimientos, .certificaciones, .skills{
+    border-radius: 10px;
+    background-color: #fff;
+    
+    width: 145px;
+    height: 40px;
+    left: 372px;
+    top: 27px;
+    /* CMS */
+
+
+
+font-family: 'Handlee';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height */
+
+
+
+color: #000000;
+
+
+
+}
+/* FIN NAV*/
+
+
+/*SOBRE MI FIGMA*/
+#sobremi{
+    width: 100%;
+    height: auto;
+}
+.left{
+   
+/* cuadro con nombre foto y iconos de contacto */
+
+position: absolute;
+width: 35%;
+height: 800px;
+left: 50px;
+top: 128px;
+background: linear-gradient(1.15deg, #4E063A 0.96%, #850B65 99.04%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+text-align: center;
+justify-content: center;
+
+ }
+
+
+/* Melani Simionatto */
+.tituloNombre{
+top: 50px;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 49px;
+color: #FFFDFD;
+}
+/* Developer */
+.developer{
+  
+top: 274px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFDFD;
+}
+
+/* CONTACTAME */
+.contactame{
+
+top: 696px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 33px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFDFD;
+
+}
+
+
+/* Foto */
+.fotopersonal{
+    
+    width: 292px;
+    height: 298px;
+    left: 141px;
+    top: 341px;
+    border-radius: 100% ;
+}
+
+@-webkit-keyframes slideDown  {
+    0% {
+      -webkit-transform: translate3d(0, -100%, 0); }
+    100% {
+      -webkit-transform: none; } }
+  @-moz-keyframes slideDown {
+    0% {
+      -moz-transform: translate3d(0, -100%, 0); }
+    100% {
+      -moz-transform: none; } }
+  @-o-keyframes slideDown {
+    0% {
+      -o-transform: translate3d(0, -100%, 0); }
+    100% {
+      -o-transform: none; } }
+  @keyframes slideDown {
+    0% {
+      transform: translate3d(0, -100%, 0); }
+    100% {
+      transform: none; } }
+
+
+.right{
+    /* Cuadro izquierdo sobre mi y descripcion */
+
+position: absolute;
+width: 55%;
+height: 800px;
+left: 570px;
+top: 131px;
+text-align: center;
+background: linear-gradient(1.15deg, #4E063A 0.96%, #850B65 99.04%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+
+}
+.tituloSobremi{
+    top: 50px;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 49px;
+color: #FFFDFD;
+
+}
+.descripcion{
+    
+
+position: absolute;
+width: 860px;
+height: 418px;
+text-align: left;
+top: 100px;
+margin-left: 30px;
+
+font-family: 'Encode Sans Expanded';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+
+color: #FFFFFF;
+
+
+}
+.bandera{
+    margin-top: 3px;
+}
+.fa-brands{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+
+ /*Trabajos figma*/
+
+/* DesktopTrabajos */
+#trabajos{
+   display: inline-flex;
+    width: 100%;
+    height: 1024px;
+    
+    background: #4A0638;
+}
+
+
+
+/* Rectangle 27 */
+.tituloTrabajos{
+    /* CMS */
+
+position: absolute;
+
+height: 49px;
+left: 94px;
+top: 950px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+
+text-align: center;
+
+color: #FFFDFD;
+
+
+}
+.rectangulo, .rectangulo2, .rectangulo3, .rectangulo4{
+    display: inline-flex;
+    position: relative;
+    width: 320px;
+    height: 400px;
+    left: 10px;
+    top: 1000px;
+    margin: 5px;
+    background: linear-gradient(1.15deg, #5B0743 0.96%, #840B64 99.04%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+}
+.tareas{
+    position: absolute;
+    top: 180px;
+    left: -20px;
+
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+
+text-align: left;
+
+color: #FFFDFD;
+}
+ul{
+    list-style: none;
+}
+
+.cms{
+    position: relative;
+    display: inline;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.fotoPrestashop, .fotoJoomla {
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+#redic{ /*icono de redireccion*/
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -33px;
+
+}
+.sitio{
+    font-size: 20px;
+    color: #fff;
+   position: absolute;
+    margin-top: 120px;
+    margin-left: -240px;
+
+}
+.logoMs, .logoPs{
+    border-radius: 200px;
+}
+
+
+/*PROYECTOS*/
+.proyec{ /*cuerpo de la seccion proyectos*/
+
+width: 100%;
+height: auto;
+left: 94px;
+top: 1300px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 49px;
+text-align: center;
+
+color: #FFFDFD;
+}
+.tituloProyectos{
+    position:relative;
+width: 100%;
+height: 49px;
+left: 94px;
+top: 350px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 49px;
+text-align: left;
+
+color: #FFFDFD;
+}
+.leftPortfolio{
+    position: relative;
+width: 700px;
+height: 500px;
+left: 110px;
+top: 320px;
+
+background: linear-gradient(1.15deg, #4E063A 0.96%, #850B65 99.04%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+text-align: center;
+justify-content: center;
+}
+
+.imgPorfolio{
+    position: relative;
+    margin-top: 35px;
+   
+    
+}
+.rightPortfolio{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    left: 870px;
+    top: 1570px;
+    text-align: center;
+    background: linear-gradient(1.15deg, #4E063A 0.96%, #850B65 99.04%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+
+#refProy, #refProy1{
+    color: #fff;
+    font-size: 40px;
+    display: inline;
+    top: 80px;
+
+
+    
+}
+
+.galeria1{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 3px;
+    top: 1800px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 49px;
+    text-align: center;
+    color: #fff;
+
+}
+.leftGaleria{
+    position: relative;
+    width: 300px;
+    height: 400px;
+left: 40px;
+top: 180px;
+background: linear-gradient(1.15deg, #4E063A 0.96%, #850B65 99.04%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+text-align: center;
+justify-content: center;
+}
+#refProy2{
+    color: #fff;
+    font-size: 30px;
+
+}
+.rightGaleria{
+    position: absolute;
+width: 900px;
+height: 400px;
+left: 400px;
+top: 180px;
+text-align: center;
+background: linear-gradient(1.15deg, #4E063A 0.96%, #850B65 99.04%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+}
+.tituloGaler{
+   margin-top: 90px;
+   position: absolute;
+    left: 20px;
+    text-align: center;
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 49px;
+text-align: left;
+
+color: #FFFDFD;
+
+
+}
+.imgGaleria{
+    margin-top: 50px;
+    
+}
+a {
+    text-decoration: none;
+}
+
+/*conocimientos*/
+#conocimientos{
+    position: absolute;
+    width: 100%;
+    height: 49px;
+
+top: 2200px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 49px;
+text-align: center;
+
+color: #FFFDFD;
+}
+.tituloConocimientos{
+    
+    width: 100%;
+    height: 49px;
+    margin-left: 94px;
+  
+    margin-top: 370px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 49px;
+    text-align: left;
+    
+    color: #FFFDFD;
+}
+.contenido-section, .galeria{
+    
+    position: absolute;
+    display: flex;   
+    height: 200px;
+    text-align: center;
+    background: linear-gradient(1.15deg, #4E063A 0.96%, #850B65 99.04%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.contenido-section{
+    width: 100%;
+       
+}
+.galeria{
+    padding: 30px;
+}
+
+/*certificaciones*/
+.certificados{
+    margin-top: 500px;
+   margin-right: 15px;
+}
+.tituloCertificaciones{
+    position: absolute;
+width: 100%;
+height: 49px;
+left: 94px;
+top: 2500px;
+
+font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 49px;
+    text-align: left;
+    
+    color: #FFFDFD;
+}
+.galeriaCertificados{
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+    margin-left: 1px;
+    margin-right: 1px;
+   
+    
+    
+}
+
+.galeriaCertificados > div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.galeriaCertificados > div:hover {
+    flex: 5;
+}
+
+/*CONTACTO*/
+.piePag{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    left: -6px;
+
+    top: 100px;
+    
+    background: linear-gradient(1.15deg, #5B0743 0.96%, #840B64 99.04%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+
+}
+
+ .redesFooter{
+ position: absolute;
+    display: flex;
+    width: 100%;
+    height: 49px;
+    left: 94px;
+    top: 100px;
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 49px;
+text-align: center;
+
+color: #FFFDFD;
+
+}
+.info{
+    position: absolute;
+    display: flex;
+    font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 49px;
+text-align: center;
+
+color: #FFFDFD;
+    
+   
+
+}
+.fa-brands2{
+    padding: 10px;
+}
+#redFoot{
+    color: #fff ;
+font-size: 50px;
+padding: 5px;
+
+}
+.fa-solid{
+    position: absolute;
+    display: flex;
+    font-style: normal;
+    top: 100px;
+    left: 10px;
+
+
+
+color: #fff ;
+font-size: 50px;
+}
