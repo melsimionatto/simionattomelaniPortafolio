@@ -1,13 +1,24 @@
+:root{
+
+    --colorPrimario:#4A0638; 
+    --colorSecundario: #fff;
+    --colorTerciario: #000000;
+}
+
 body{
    
 
-/* Desktop - 1 */
+/* Desktop 
+    --colorPrimario:#4A0638; 
+    --colorSecundario: #fff;
+    --colorTerciario: #000000;
+}- 1 */
 
 position: relative;
 width: 100%;
 height: auto;
 
-background: #4A0638;
+background: var(--colorPrimario);
 
 
 
@@ -34,7 +45,7 @@ margin-left: 300px;
 }
 .botonSobremi, .botonCms, .proyectos, .conocimientos, .certificaciones, .skills{
     border-radius: 10px;
-    background-color: #fff;
+    background-color: var(--colorSecundario);
     
     width: 145px;
     height: 40px;
@@ -53,7 +64,7 @@ line-height: 24px;
 
 
 
-color: #000000;
+color: var(--colorTerciario);
 
 
 
@@ -75,7 +86,7 @@ width: 35%;
 height: 800px;
 left: 50px;
 top: 128px;
-background: linear-gradient(1.15deg, #4E063A 0.96%, #850B65 99.04%);
+background: linear-gradient(1.15deg, var(--colorPrimario) 0.96%, #850B65 99.04%);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 50px;
 text-align: center;
@@ -92,7 +103,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 30px;
 line-height: 49px;
-color: #FFFDFD;
+color: var(--colorSecundario);
 }
 /* Developer */
 .developer{
@@ -107,7 +118,7 @@ line-height: 33px;
 /* identical to box height */
 text-align: center;
 
-color: #FFFDFD;
+color: var(--colorSecundario);
 }
 
 /* CONTACTAME */
@@ -123,7 +134,7 @@ line-height: 33px;
 /* identical to box height */
 text-align: center;
 
-color: #FFFDFD;
+color: var(--colorSecundario);
 
 }
 
@@ -181,7 +192,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 30px;
 line-height: 49px;
-color: #FFFDFD;
+color: var(--colorSecundario);
 
 }
 .descripcion{
@@ -200,7 +211,7 @@ font-weight: 400;
 font-size: 20px;
 line-height: 31px;
 
-color: #FFFFFF;
+color: var(--colorSecundario);
 
 
 }
@@ -209,7 +220,7 @@ color: #FFFFFF;
 }
 .fa-brands{
     font-size: 30px;
-    color: #FFFFFF;
+    color: var(--colorSecundario);
 }
 
 
@@ -221,7 +232,7 @@ color: #FFFFFF;
     width: 100%;
     height: 1024px;
     
-    background: #4A0638;
+    background: var(--colorPrimario);
 }
 
 
@@ -243,7 +254,7 @@ font-size: 48px;
 
 text-align: center;
 
-color: #FFFDFD;
+color: var(--colorSecundario);
 
 
 }
@@ -271,7 +282,7 @@ font-size: 20px;
 
 text-align: left;
 
-color: #FFFDFD;
+color: var(--colorSecundario);
 }
 ul{
     list-style: none;
@@ -291,7 +302,7 @@ ul{
 }
 #redic{ /*icono de redireccion*/
     font-size: 20px;
-    color: #fff;
+    color:var(--colorSecundario);
     position: absolute;
     margin-top: 120px;
     margin-left: -33px;
@@ -299,7 +310,7 @@ ul{
 }
 .sitio{
     font-size: 20px;
-    color: #fff;
+    color: var(--colorSecundario);
    position: absolute;
     margin-top: 120px;
     margin-left: -240px;
@@ -325,7 +336,7 @@ font-size: 48px;
 line-height: 49px;
 text-align: center;
 
-color: #FFFDFD;
+color: var(--colorSecundario);
 }
 .tituloProyectos{
     position:relative;
@@ -341,7 +352,7 @@ font-size: 48px;
 line-height: 49px;
 text-align: left;
 
-color: #FFFDFD;
+color: var(--colorSecundario);
 }
 .leftPortfolio{
     position: relative;
@@ -377,7 +388,7 @@ justify-content: center;
 
 
 #refProy, #refProy1{
-    color: #fff;
+    color: var(--colorSecundario);
     font-size: 40px;
     display: inline;
     top: 80px;
@@ -399,7 +410,7 @@ justify-content: center;
     font-size: 48px;
     line-height: 49px;
     text-align: center;
-    color: #fff;
+    color: var(--colorSecundario);
 
 }
 .leftGaleria{
@@ -415,7 +426,7 @@ text-align: center;
 justify-content: center;
 }
 #refProy2{
-    color: #fff;
+    color: var(--colorSecundario);
     font-size: 30px;
 
 }
@@ -442,7 +453,7 @@ font-size: 30px;
 line-height: 49px;
 text-align: left;
 
-color: #FFFDFD;
+color: var(--colorSecundario);
 
 
 }
@@ -469,7 +480,7 @@ font-size: 48px;
 line-height: 49px;
 text-align: center;
 
-color: #FFFDFD;
+color: var(--colorSecundario);
 }
 .tituloConocimientos{
     
@@ -485,7 +496,7 @@ color: #FFFDFD;
     line-height: 49px;
     text-align: left;
     
-    color: #FFFDFD;
+    color: var(--colorSecundario);
 }
 .contenido-section, .galeria{
     
@@ -524,7 +535,7 @@ font-family: 'Epilogue';
     line-height: 49px;
     text-align: left;
     
-    color: #FFFDFD;
+    color: var(--colorSecundario);
 }
 .galeriaCertificados{
     
@@ -582,7 +593,7 @@ font-size: 48px;
 line-height: 49px;
 text-align: center;
 
-color: #FFFDFD;
+color: var(--colorSecundario);
 
 }
 .info{
@@ -594,7 +605,7 @@ font-size: 25px;
 line-height: 49px;
 text-align: center;
 
-color: #FFFDFD;
+color: var(--colorSecundario);
     
    
 
@@ -603,7 +614,7 @@ color: #FFFDFD;
     padding: 10px;
 }
 #redFoot{
-    color: #fff ;
+    color: var(--colorSecundario) ;
 font-size: 50px;
 padding: 5px;
 
@@ -617,6 +628,6 @@ padding: 5px;
 
 
 
-color: #fff ;
+color: var(--colorSecundario) ;
 font-size: 50px;
 }

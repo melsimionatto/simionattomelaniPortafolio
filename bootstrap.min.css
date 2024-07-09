@@ -8,7 +8,15 @@
 @import 'node_modules/bootstrap-icons/font/bootstrap-icons.css';
 
 
+:root{
 
+    --colorPrimario:#E4C59E; 
+    --colorSecundario: #AF8260;
+    --colorTerciario: #803D3B;
+    --negro:#000000;
+    --blanco:#fff;
+    
+}
 /*ESTILOS PROPIOS*/
 body{
    
@@ -19,7 +27,7 @@ body{
     width: 100%;
     height: auto;
     
-    background: #4A0638;
+    background: var(--colorPrimario);
     
     
     
@@ -27,7 +35,7 @@ body{
 
 #left{
     
-    background: linear-gradient(1.15deg, #4E063A 0.96%, #850B65 99.04%);
+    background: linear-gradient(1.15deg, var(--colorSecundario) 0.96%, var(--colorSecundario) 99.04%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
     text-align: center;
@@ -41,7 +49,7 @@ body{
     font-weight: 400;
     font-size: 30px;
     line-height: 49px;
-    color: #FFFDFD;
+    color: var(--blanco);
     text-align: center;
     }
     /* Developer */
@@ -57,7 +65,7 @@ body{
     /* identical to box height */
     text-align: center;
     
-    color: #f6f2f2;
+    color: var(--blanco);
     }
 
     /* Foto */
@@ -82,12 +90,12 @@ line-height: 33px;
 /* identical to box height */
 text-align: center;
 
-color: #FFFDFD;
+color: var(--blanco);
 
 }
 .bi{
     font-size: 30px;
-    color: #FFFFFF;
+    color: var(--blanco);
 }
 
 #right{
@@ -97,7 +105,7 @@ color: #FFFDFD;
 left: 570px;
 top: 131px;
 text-align: center;
-background: linear-gradient(1.15deg, #4E063A 0.96%, #850B65 99.04%);
+background: linear-gradient(1.15deg, var(--colorSecundario)0.96%, var(--colorSecundario) 99.04%);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 50px;
 
@@ -109,7 +117,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 30px;
 line-height: 49px;
-color: #FFFDFD;
+color: var(--blanco);
 
 }
 .descripcion{
@@ -126,7 +134,7 @@ font-weight: 400;
 font-size: 20px;
 line-height: 31px;
 
-color: #FFFFFF;
+color: var(--blanco);
 
 
 }
@@ -143,7 +151,7 @@ margin-top: 30px;
 
 text-align: center;
 
-color: #FFFDFD;
+color: var(--blanco);
 
 
 }
@@ -167,19 +175,19 @@ a{
 
 #redic { /*icono de redireccion*/
     font-size: 20px;
-    color: #fff;
+    color: var(--blanco);
     
    
 
 }
 #redFoot{
     font-size: 30px;
-    color: #FFFFFF;
+    color: var(--blanco);
 }
 
 .sitio{
     font-size: 20px;
-    color: #fff;
+    color: var(--blanco);
   
 
 }
@@ -201,7 +209,7 @@ line-height: 49px;
 text-align: center;
 margin-top: 30px;
 
-color: #FFFDFD;
+color: var(--blanco);
 }
 
 
@@ -210,8 +218,30 @@ color: #FFFDFD;
    
 
     .btn{
-        background-color: #4E063A;
+        background-color: var(--colorPrimario);
         border-style: none;
         
     }
-
+/* Media Query para pantallas más pequeñas que Bootstrap 'md' */
+@media (max-width: 1200px) {
+    #right {
+        width: 100%; /* Por ejemplo, ocupar todo el ancho en pantallas pequeñas */
+    }
+    #webUNRaf {
+        width: 100%;
+        justify-content: center;
+    }
+    #webTienda{
+        width: 100%;
+    }
+    #webUNRaftec{
+        width: 100%;
+    }
+    #webUNRafGlobal{
+        width: 100%;
+    }
+    #webPixelarte{
+        width: 100%;
+        
+    }
+}
