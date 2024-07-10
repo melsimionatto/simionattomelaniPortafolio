@@ -169,6 +169,8 @@ color: var(--blanco);
 }
 a{
     text-decoration: none;
+    color: inherit;
+    
 }
 
 
@@ -218,10 +220,20 @@ color: var(--blanco);
    
 
     .btn{
-        background-color: var(--colorPrimario);
+        background-color: var(--colorTerciario);
         border-style: none;
+        color: var(--blanco);
         
     }
+.card{
+    background-color: var(--colorSecundario);
+    color: var(--blanco);
+}
+    
+
+
+
+
 /* Media Query para pantallas más pequeñas que Bootstrap 'md' */
 @media (max-width: 1200px) {
     #right {
@@ -243,5 +255,20 @@ color: var(--blanco);
     #webPixelarte{
         width: 100%;
         
+    }
+    #card__web{
+        width: 100%;
+    }
+
+    #card__proy{
+        width: 100%;
+    }
+    #card__dashboard{
+        width: 100%;
+    }
+    #seccion__footer{
+        justify-content: center;
+        text-align: center;
+    
     }
 }
